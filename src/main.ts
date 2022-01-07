@@ -16,9 +16,6 @@ let random: any = 10;
 random = true;
 random = 'saku';
 
-let unknowns: unknown = 'saku';
-(unknowns as string).toUpperCase()
-
 let multitype: number | boolean;
 multitype = 20;
 multitype = true;
