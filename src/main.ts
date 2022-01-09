@@ -11,6 +11,13 @@ let tuple1: [string, boolean] = ['saku', true];
 enum color { User, SuperUser, Admin, SuperAdmin };
 let c: color = color.SuperUser;
 console.log(c);
+type obj = {
+    id: string;
+}
+function saku(obj: obj) {
+    console.log("saku", obj.id)
+}
+saku({ id: "1" })
 
 let random: any = 10;
 random = true;
